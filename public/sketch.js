@@ -60,7 +60,7 @@ function setup() {
 
   textAlign(CENTER);
   textSize(50);
-  socket = io.connect('http://localhost:3000');
+  socket = io.connect('https://patchbae.github.io/PixelServer/public/');
   socket.on('milli', framerate);
 } 
 
